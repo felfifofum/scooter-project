@@ -1,5 +1,10 @@
 class User {
   // User code here
+  constructor(username, password, age) {
+    this.username = username;
+    this.password = password;
+    this.age = age;
+  }
 }
-
-module.exports = User
+// const user1 = new User("felfifofum", "123", 18);
+module.exports = User;
